@@ -51,9 +51,7 @@ public function actions()
     ]; 
     
 }
- 
-//调用方式,imageUrl为默认图地址
-<?= \flash20\avatar\AvatarWidget::widget(['imageUrl'=>'/statics/images/avatar/avatar.jpg']); ?>
+
 ```
 在From里可以单独使用
 ```php
