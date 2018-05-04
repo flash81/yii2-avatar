@@ -1,0 +1,21 @@
+{
+    "name": "flash20/yii2-avatar",
+    "description": "基于cropper的一款头像上传yii2组件",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "fenglee",
+            "email": "2684498887@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "flash20\\avatar\\": ""
+        }
+    }
+}
