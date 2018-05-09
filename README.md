@@ -51,7 +51,9 @@ public function actions()
     ]; 
     
 }
-
+ 
+//调用方式,imageUrl为默认图地址
+<?= \flash20\avatar\AvatarWidget::widget(['imageUrl'=>'/images/logo200x200.png']); ?>
 ```
 在From里可以单独使用
 ```php
@@ -62,6 +64,6 @@ public function actions()
 
 
 放到Form外
-<?php $obj = new \flash20\avatar\AvatarUploadWidget(['imageUrl'=>'/statics/images/avatar/avatar.jpg']);echo $obj->setFooter(); ?>
+<?php $obj = new \flash20\avatar\AvatarUploadWidget(['imageUrl'=>'/images/logo200x200.png']);echo $obj->setFooter(); ?>
 
 ```

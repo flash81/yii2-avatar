@@ -73,7 +73,7 @@ class UploadForm extends Model
             if(!$this->mkDirs(dirname($dir))){
                 return false;
             }
-            if(!mkdir($dir,0777)){
+            if(!mkdir($dir,0777, true)){
                 return false;
             }
         }
