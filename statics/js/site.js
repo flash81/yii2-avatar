@@ -14,3 +14,8 @@ $('#image').cropper({
     console.log(e.scaleY);
   }
 });
+$(function () {
+    $("body").click(function(){
+        $(':submit').removeAttr('disabled');
+    });
+})
