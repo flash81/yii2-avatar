@@ -1,4 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
+#!/bin/env groovy
 pipeline {
     agent any
     stages {
